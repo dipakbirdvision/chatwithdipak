@@ -6,7 +6,7 @@ const videoGrid = document.getElementById('video-grid')
 // })
 
 // let myPeer = new Peer({host:'https://peerjsforchatwithdipak.herokuapp.com/', secure:true, port:443})
-const myPeer = new Peer({host: 'peerjsforchatwithdipak.herokuapp.com', secure: true, path: '/peerapp'})
+const myPeer = new Peer({host: 'peerjsforchatwithdipak.herokuapp.com', secure: true, port:443})
 
 const myVideo = document.createElement('video')
 myVideo.muted = true
